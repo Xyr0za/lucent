@@ -84,7 +84,7 @@ python run.py
 - Starts the Vite development server on Port 5173.
 - Waits for initialization, then automatically opens Google Chrome in an isolated, incognito "app mode" directly to the UI.
 - Provides graceful shutdown; pressing Ctrl+C in the terminal will cleanly terminate both the frontend and backend servers.
-> Important First-Run Note: The very first time you trigger a segmentation via the UI, TotalSegmentator will download its model weights (~12GB) to your system's ~/.totalsegmentator directory. This initial process will take significantly longer than subsequent runs.
+> Important First-Run Note: The very first time you trigger a segmentation via the UI, TotalSegmentator will download its model weights (~12GB) to your system's ~/.totalsegmentator directory. This initial process will take significantly longer than subsequent runs. Please ensure you have sufficient storage for these weights to.
 
 ## API Reference (Port 8004)
 The backend exposes the following endpoints:
